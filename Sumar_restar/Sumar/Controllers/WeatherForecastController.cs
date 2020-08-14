@@ -23,7 +23,7 @@ namespace Sumar.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet]//ESTAMOS USANDO UN PROTOCOLOGO HttpGet
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();

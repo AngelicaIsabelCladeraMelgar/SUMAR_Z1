@@ -1,5 +1,7 @@
 using System;
-
+//ES EL MODELO QUE VA A PASARSE ENTRE LA VISTA
+//Y EL CONTROLADOR
+//ES LA API?
 namespace Sumar
 {
     public class WeatherForecast

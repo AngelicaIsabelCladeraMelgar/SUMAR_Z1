@@ -41,7 +41,7 @@ namespace Sumar
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                endpoints.MapControllers();//VA A SER EL CONTROL
             });
         }
     }
