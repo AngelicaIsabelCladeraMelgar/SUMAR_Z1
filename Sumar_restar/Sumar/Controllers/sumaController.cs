@@ -34,6 +34,7 @@ namespace Sumar.Controllers
         }
         [HttpPost]
         [Route("Multiply")]
+        //Get y Post son dos rutas diferentes no son iguales 
         //una cosa es la rutamiento y otra cosa es la funcion
         public int Mul2([FromHeader] int a, [FromHeader] int b)
         {
