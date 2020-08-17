@@ -9,7 +9,7 @@ namespace Sumar.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class sumaController : ControllerBase
+    public class SumaController : ControllerBase
     {
         [HttpGet]
         [Route("Add")]//Para que el postman sepa que Get mostrar
@@ -23,7 +23,7 @@ namespace Sumar.Controllers
         [Route("Add")]
         public int Add2([FromHeader] int a, [FromHeader] int b)
         {
-            return a + b;
+            return a + b+1;
         }
         [HttpGet]
         [Route("Multiply")]
